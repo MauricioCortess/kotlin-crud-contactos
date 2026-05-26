@@ -63,3 +63,28 @@ fun buscarContacto() {
         println("No se encontró a nadie con ese nombre.")
     }
 }
+
+fun main() {
+    var salir = false
+    // CUMPLE: Ciclo while [cite: 68]
+    while (!salir) {
+        println("\n=== GESTOR DE CONTACTOS ===")
+        println("1. Agregar contacto")
+        println("2. Listar todos")
+        println("3. Buscar contacto")
+        println("4. Salir")
+        print("Elige una opción: ")
+
+        // CUMPLE: Manejo con when [cite: 68]
+        when (readLine()) {
+            "1" -> agregarContacto()
+            "2" -> listarContactos()
+            "3" -> buscarContacto()
+            "4" -> {
+                println("Saliendo del sistema...")
+                salir = true
+            }
+            else -> println("Opción no válida, intenta de nuevo.")
+        }
+    }
+}
