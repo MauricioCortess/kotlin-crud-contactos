@@ -9,7 +9,7 @@ fun obtenerContactos(): List<Contacto> {
     if (!archivo.exists()) return emptyList()
 
     // Colecciones con mapNotNull
-    return archivo.readLines().mapNotNull { Linea ->
+    return archivo.readLines().mapNotNull { linea ->
         val datos = linea.split("|")
         // if para la toma de decisiones
         if (datos.size == 3) Contacto(datos[0].toInt(), datos[1], datos[2]) else null
@@ -23,14 +23,14 @@ fun guardarContactos(contactos: List<Contacto>) {
 
 fun agregarContacto() {
     print("Ingresa el nombre: ")
-    // CUMPLE: Null safety con elvis operator [cite: 70]
+    // Null safety con elvis operator
     val nombre = readLine()?.takeIf { it.isNotBlank() } ?: "Desconocido"
 
     print("Ingresa el teléfono: ")
     val telefono = readLine()?.takeIf { it.isNotBlank() } ?: "Sin número"
 
     val contactos = obtenerContactos().toMutableList()
-    // CUMPLE: Operaciones funcionales maxByOrNull [cite: 68]
+    // Operaciones funcionales maxByOrNull [cite: 68]
     val nuevoId = (contactos.maxByOrNull { it.id }?.id ?: 0) + 1
 
     contactos.add(Contacto(nuevoId, nombre, telefono))
@@ -45,7 +45,7 @@ fun listarContactos() {
         return
     }
     println("\n--- LISTA DE CONTACTOS ---")
-    // CUMPLE: Operación forEach [cite: 68]
+    // Operación forEach
     contactos.forEach { println("[${it.id}] ${it.nombre} - Tel: ${it.telefono}") }
 }
 
@@ -53,7 +53,7 @@ fun buscarContacto() {
     print("Ingresa el nombre a buscar: ")
     val busqueda = readLine() ?: ""
 
-    // CUMPLE: filter y any [cite: 68]
+    // filter y any
     val resultados = obtenerContactos().filter { it.nombre.contains(busqueda, ignoreCase = true) }
 
     if (resultados.any()) {
@@ -66,7 +66,7 @@ fun buscarContacto() {
 
 fun main() {
     var salir = false
-    // CUMPLE: Ciclo while [cite: 68]
+    // Ciclo while
     while (!salir) {
         println("\n=== GESTOR DE CONTACTOS ===")
         println("1. Agregar contacto")
@@ -75,7 +75,7 @@ fun main() {
         println("4. Salir")
         print("Elige una opción: ")
 
-        // CUMPLE: Manejo con when [cite: 68]
+        // Manejo con when
         when (readLine()) {
             "1" -> agregarContacto()
             "2" -> listarContactos()
