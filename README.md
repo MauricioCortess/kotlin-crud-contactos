@@ -3,10 +3,12 @@
 Este proyecto se desarrollo como una aplicación de línea de comandos (CLI) desarrollada en Kotlin que nos permite gestionar una agenda de contactos mediante operaciones de Creación, Lectura y Búsqueda (CRUD), simulando la persistencia de datos a través de un archivo de texto plano.
 
 ## Instrucciones de instalación y ejecución:
-1. Clona este repositorio utilizando el comando:
+1. Clona este repositorio desde terminal de Windows Powershell o desde el entorno de desarrollo preferido compatible con Kotlin utilizando el comando:
    `git clone https://github.com/MauricioCortess/kotlin-crud-contactos.git`
-2. Abre el proyecto en un entorno compatible con Kotlin.
-3. Compila y ejecuta el archivo `Main.kt`. El archivo `contactos.txt` se generará automáticamente en la raíz del proyecto al agregar el primer registro.
+2. Espera unos segundos a que el IDE reconozca el archivo `build.gradle.kts` y sincronice el proyecto automáticamente (Gradle descargará la librería estándar de Kotlin), Esto suele demorar unos 5 mn o más.
+3. Haz clic en el botón verde de **Ejecutar (Run / Play ▶️) Que se encuentra hasta arriba o bien dentro del archivo Main.kt en la linea 67 alado debería salir un boton verde de Run** ubicado a la izquierda de la línea `fun main()`.
+4. Interactúa con el menú directamente en la consola integrada de tu entorno. 
+   *(Nota: El archivo `contactos.txt` para la persistencia de datos se generará automáticamente en la raíz del proyecto al agregar el primer registro).*
 
 ## Funcionalidades principales:
 * Registro de nuevos contactos (Nombre y Teléfono).
