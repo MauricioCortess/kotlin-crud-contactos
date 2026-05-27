@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a7d1b02-d9ce-49e8-ab7c-e48c7cc0a9d7" name="Changes" comment="Se agregaron archivos de configuración para el entorno de ejecución Gradle, compilando exitosamente." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kotlin-crud-contactos" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MauricioCortess&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MauricioCortess/kotlin-crud-contactos.git&quot;,
+    &quot;accountId&quot;: &quot;102f961c-dbc9-4ef6-ad5b-e861756b8b64&quot;
+  }
+}</component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="C:\Users\mauco\.gradle\wrapper\dists\gradle-9.0.0-bin\d6wjpkvcgsg3oed0qlfss3wgl\gradle-9.0.0" javaHome="C:\Users\mauco\.jdks\temurin-17.0.19" gradleVersion="9.0.0">
+    <option name="jvmArguments">
+      <list>
+        <option value="-Didea.gradle.download.sources.force=true" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EHLcTKgDUkk9aYkR1jRkJaSFm8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.kotlin-crud-contactos [:MainKt.main()].executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RunManager" selected="Kotlin.MainKt">
+    <configuration name="KotlinGestorContactos" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <module name="kotlin-crud-contactos.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.KotlinGestorContactos" />
+      <item itemvalue="Kotlin.MainKt" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a7d1b02-d9ce-49e8-ab7c-e48c7cc0a9d7" name="Changes" comment="" />
+      <created>1779830631379</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779830631379</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Creación y Configuración de archivo base Main.kt e Implementación de data class Contacto.">
+      <option name="closed" value="true" />
+      <created>1779832104529</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779832104529</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Agregación de funciones de lectura y escritura en archivo de texto.">
+      <option name="closed" value="true" />
+      <created>1779833278923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779833278923</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Se añadio lógica de colecciones para buscar y eliminar registros.">
+      <option name="closed" value="true" />
+      <created>1779835014200</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779835014200</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Se Implemento un menú interactivo principal con when y while">
+      <option name="closed" value="true" />
+      <created>1779836288966</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779836288966</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Se movio el archivo base a su carpeta correspondiente src">
+      <option name="closed" value="true" />
+      <created>1779841857436</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779841857436</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Se agregaron archivos de configuración para el entorno de ejecución Gradle, compilando exitosamente.">
+      <option name="closed" value="true" />
+      <created>1779849562104</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1779849562104</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creación y Configuración de archivo base Main.kt e Implementación de data class Contacto." />
+    <MESSAGE value="Agregación de funciones de lectura y escritura en archivo de texto." />
+    <MESSAGE value="Se añadio lógica de colecciones para buscar y eliminar registros." />
+    <MESSAGE value="Se Implemento un menú interactivo principal con when y while" />
+    <MESSAGE value="Se movio el archivo base a su carpeta correspondiente src" />
+    <MESSAGE value="Se agregaron archivos de configuración para el entorno de ejecución Gradle, compilando exitosamente." />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agregaron archivos de configuración para el entorno de ejecución Gradle, compilando exitosamente." />
+  </component>
+</project>
